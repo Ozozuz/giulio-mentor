@@ -39,23 +39,23 @@ Questo design è coerente con diversi risultati noti nella letteratura sui LLM:
 
 ## Evidenze visive
 
-Le immagini seguenti sono incluse anche nella cartella `screenshots/` e mostrano tre aspetti operativi della skill: continuità del mentoring, efficienza espressiva e resistenza ai tentativi di prompt injection.
+Le immagini seguenti sono incluse anche nella cartella `screenshots/` e mostrano tre aspetti operativi della skill: mentoring su misura, efficienza nell'uso dei token e attrito operativo generato nell'utilizzo.
 
-**1111 Mentorship**
+**Tailored Advanced Mentorship**
 
-<img src="screenshots/vapt-port-1111.png" alt="1111 Mentorship" width="640">
+<img src="screenshots/vapt-port-1111.png" alt="Tailored Advanced Mentorship" width="640">
 
 Sessione di mentoring ad alta densità informativa, con risposta coerente e controllo del tono.
 
-**Admin vuln**
+**Token Efficiency Gain**
 
-<img src="screenshots/admin-vuln.jpg" alt="Admin vuln" width="640">
+<img src="screenshots/admin-vuln.jpg" alt="Token Efficiency Gain" width="640">
 
 Indicatore visivo del risparmio token ottenuto riducendo il rumore linguistico e mantenendo la risposta focalizzata.
 
-**Response no**
+**Operational Friction**
 
-<img src="screenshots/response-no.png" alt="Response no" width="640">
+<img src="screenshots/response-no.png" alt="Operational Friction" width="640">
 
 Dimostrazione della resistenza a una richiesta manipolativa: rifiuto netto, contesto preservato, nessuna deriva.
 
