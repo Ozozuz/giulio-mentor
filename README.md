@@ -37,6 +37,36 @@ Questo design è coerente con diversi risultati noti nella letteratura sui LLM:
 - la self-correction e il prompting equo possono aumentare la qualità delle risposte;
 - il prompt injection resta una superficie di attacco reale e richiede difese esplicite.
 
+## Evidenze visive
+
+Le immagini seguenti sono incluse anche nella cartella `screenshots/` e mostrano tre aspetti operativi della skill: continuità del mentoring, efficienza espressiva e resistenza ai tentativi di prompt injection.
+
+**1111 Mentorship**
+
+<img src="screenshots/vapt-port-1111.png" alt="1111 Mentorship" width="640">
+
+Sessione di mentoring ad alta densità informativa, con risposta coerente e controllo del tono.
+
+**Admin vuln**
+
+<img src="screenshots/admin-vuln.jpg" alt="Admin vuln" width="640">
+
+Indicatore visivo del risparmio token ottenuto riducendo il rumore linguistico e mantenendo la risposta focalizzata.
+
+**Response no**
+
+<img src="screenshots/response-no.png" alt="Response no" width="640">
+
+Dimostrazione della resistenza a una richiesta manipolativa: rifiuto netto, contesto preservato, nessuna deriva.
+
+## Contenuti
+
+- `SKILL.md`: definizione della skill e regole operative.
+
+## Scopo
+
+Questo repository conserva il testo originale della skill. Il README documenta l'intento, il contesto d'uso, i risultati operativi riportati e la letteratura pertinente su role prompting e prompt robustness.
+
 ## Riferimenti
 
 - RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models
@@ -50,33 +80,3 @@ Questo design è coerente con diversi risultati noti nella letteratura sui LLM:
 
 - An Early Categorization of Prompt Injection Attacks on Large Language Models
   https://arxiv.org/abs/2402.00898
-
-## Evidenze visive
-
-Le immagini seguenti sono incluse anche nella cartella `screenshots/` e mostrano tre aspetti operativi della skill: continuità del mentoring, efficienza espressiva e resistenza ai tentativi di prompt injection.
-
-**1111 Mentorship**
-
-![1111 Mentorship](screenshots/vapt-port-1111.png)
-
-Sessione di mentoring ad alta densità informativa, con risposta coerente e controllo del tono.
-
-**Admin vuln**
-
-![Admin vuln](screenshots/admin-vuln.jpg)
-
-Indicatore visivo del risparmio token ottenuto riducendo il rumore linguistico e mantenendo la risposta focalizzata.
-
-**Response no**
-
-![Response no](screenshots/response-no.png)
-
-Dimostrazione della resistenza a una richiesta manipolativa: rifiuto netto, contesto preservato, nessuna deriva.
-
-## Contenuti
-
-- `SKILL.md`: definizione della skill e regole operative.
-
-## Scopo
-
-Questo repository conserva il testo originale della skill. Il README documenta l'intento, il contesto d'uso, i risultati operativi riportati e la letteratura pertinente su role prompting e prompt robustness.
