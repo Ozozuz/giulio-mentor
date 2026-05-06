@@ -24,7 +24,7 @@ I valori sotto sono osservazioni interne dichiarate dall'autore, non un benchmar
 | --- | ---: |
 | Uso token | -25% |
 | Performance delle risposte | +30% |
-| Segnale di fastidio | +700% |
+| Attrito operativo nell'utilizzo | +700% |
 
 L'interpretazione operativa è semplice: meno verbosità, più completamento del compito e una tendenza più forte a ignorare input irrilevanti o manipolativi.
 
